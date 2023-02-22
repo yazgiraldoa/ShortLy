@@ -2,12 +2,13 @@
 name = "shortly"
 version = "0.1.0"
 description = "Url shortener"
-authors = ["yazgiraldoa <edygiraldo.97@gmail.com>"]
+authors = ["yazgiraldoa <yazmingiraldoa@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.11"
-django = "^4.1.7"
+fastapi = "0.92.0"
+uvicorn = "0.20.0"
 
 
 [build-system]
