@@ -1,0 +1,4 @@
+[flake8]
+ignore = E501, E722, W605
+max-line-length = 120
+extend-exclude = dist, build, venv, alembic, tmp
